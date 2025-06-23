@@ -34,7 +34,7 @@ def lipa_na_mpesa(phone, amount):
         "PartyA": phone,
         "PartyB": settings.MPESA_SHORTCODE,
         "PhoneNumber": phone,
-        "CallBackURL": "https://3602-102-0-18-229.ngrok-free.app/callback/",
+        "CallBackURL": "https://malipoproject.onrender.com/callback/",
         "AccountReference": "Test",
         "TransactionDesc": "Payment Test"
     }
